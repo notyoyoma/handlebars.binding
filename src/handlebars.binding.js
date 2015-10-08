@@ -10,6 +10,8 @@
 
 }(this, function(Handlebars) {
 
+  import [ Observer, ArrayObserver, ArraySplice, ObjectObserver, PathObserver, CompoundObserver, Path, ObserverTransform ] from 'observe-js';
+
   var Utils = Handlebars.Utils;
 
   var createElementBinding = function(id) {
